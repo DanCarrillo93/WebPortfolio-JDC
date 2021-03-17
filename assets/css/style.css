@@ -2,6 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root{
+    --boxes: rgb(77, 133, 77); 
 }
 
 body {
@@ -11,7 +16,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: var(--boxes);
     color: #ffffff;
 }
 
@@ -81,11 +86,11 @@ p {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;
-    width: 20%;
+    
+    width: 75%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: var(--boxes);
 }
 
 
@@ -110,10 +115,10 @@ p {
 
 .squares {
     margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+    padding: 5px;
+    height: 210px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: var(--boxes);
     color: #ffffff;
 }
 
